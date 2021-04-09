@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cadastro.css">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+             
+</head>
+<body>
+    <div class="container white z-depth-2">
+        <ul class="tabs teal">
+            <li class="tab col s3"><a class="white-text active" href="#login">Entrar</a></li>
+            <li class="tab col s3"><a class="white-text" href="#register">Cadastrar-se</a></li>
+        </ul>
+        <div id="login" class="col s12">
+            <form class="col s12">
+                <div class="form-container">
+                    <h3 class="teal-text">Medique</h3>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">CRM</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Senha</label>
+                        </div>
+                    </div>
+                    <br>
+                    <center>
+                        <a href="../area_medico/areamedico.html" class="btn waves-effect waves-light teal" type="submit" name="action">Entrar</a>
+                        <br>
+                        <br>
+                        <a href="">Esqueci a senha?</a>
+                    </center>
+                </div>
+            </form>
+        </div>
+        <div id="register" class="col s12">
+            <form class="col s12">
+                <div class="form-container">
+                    <h3 class="teal-text">Bem-Vindo</h3>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Nome</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Sobrenome</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">E-mail</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email-confirm" type="email" class="validate">
+                            <label for="email-confirm">Telefone</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Senha</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password-confirm" type="password" class="validate">
+                            <label for="password-confirm">Confirmar senha</label>
+                        </div>
+                    </div>
+                    <center>
+                        <button class="btn waves-effect waves-light teal" type="submit" name="action">Registrar-se</button>
+                    </center>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./cadastro.js"></script>
+</html>
