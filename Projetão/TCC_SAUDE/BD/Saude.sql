@@ -14,11 +14,11 @@ create table medico(
 create table paciente(
 	cpf varchar(11) not null primary key,
 	nome varchar(40) not null,
-    cidade varchar(15) not null,
-    tipo_sanguineo varchar(4) not null,
-    data_de_nascimento date,
-    telefone varchar(20),
-    e_mail varchar (50)  	
+  cidade varchar(15) not null,
+  tipo_sanguineo varchar(4) not null,
+  data_de_nascimento date,
+  telefone varchar(20),
+  e_mail varchar (50)  	
 );
 create table status_Consulta(
   id integer not null auto_increment primary key,
