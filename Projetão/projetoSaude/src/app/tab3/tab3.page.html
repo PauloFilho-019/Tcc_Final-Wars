@@ -7,24 +7,13 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-    <div class="col">
-        Email:
-        <input type="text" [(ngModel)]="email" class="form-control" step="0.010"/> 
-    </div>
-    <div class="col">
-        Assunto:
-        <input type="text" [(ngModel)]="att" class="form-control" step="0.010"/> 
-    </div> 
-    <div class="col">
-      Mensagem:
-      <textarea type="text" placeholder="digite sua mensagem aqui" [(ngModel)]="msg" class="form-control"></textarea> 
-  </div> 
+   <p>Aperte o botão para ir a uma pagina aonde ira poder enviar um email relatando seu problema tecnico com o app</p>
   <div class="text-center" >
   <br><br>
+  <div class="center">
   <div class="row">
- 
-    <ion-button  color="success">Enviar</ion-button>
-    <ion-button  color="danger">Limpar Campos</ion-button>
+    <ion-button class="center" color="success" (click)="openEmail()">Enviar</ion-button>
+  </div>
   </div>
   </div>
 </ion-content>
