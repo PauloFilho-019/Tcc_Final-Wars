@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Indie+Flower';
 body {
-  background-color: #009885;
+  background-image: url("../assets/fundo.gif");
+  background-size: cover;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -11,7 +12,7 @@ body {
   z-index: -999;
   width: 610px;
   height: 580px;
-  background-image: url(https://cdn.dribbble.com/users/207059/screenshots/1820812/fatboywalkingdribbble2.gif);
+  background-image: url("");
   background-repeat: no-repeat;
 }
 
@@ -34,7 +35,7 @@ input[type='text'] {
   border-radius: 3px;
   padding: 0 0 0 15px;
   font-size: 22px;
-  color: #ffffff;
+  color: #000000;
   background-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -50,9 +51,9 @@ input[type="button"] {
   margin-top: 5px;
   font-size: 23px;
   border: none;
-  background-color: #ffffff;
+  background-color: #000000;
   cursor: pointer;
-  color: #009885;
+  color: #ffffff;
 }
 
 ::-webkit-input-placeholder {
@@ -77,12 +78,12 @@ input[type="button"] {
 
 #message {
   font-size: 20px;
-  color: #FFFFFF;
+  color: #000000;
   text-align: center;
 }
 
 #title {
   text-align: center;
-  color: #FFFFFF;
+  color: #000000;
   font-size: 30px;
 }
