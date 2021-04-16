@@ -1,0 +1,32 @@
+{
+	"Connection" : {
+		"Headers" : {
+			"Content-type" : "application/json; charset=UTF-8",
+			"Access-Control-Allow-Origin" : "http://localhost/",
+			"Access-Control-Allow-Methods" : "GET, PUT, POST, DELETE"
+		}
+	},
+	"Database" : {
+		"host" : "localhost",
+		"port" : "3306",
+		"dbname" : "bdmedique",
+		"user" : "root",
+		"password" : ""
+	},
+	"Class" : [
+		{
+			"name" : "medico",
+			"attributes" : [
+				"crm",
+				"nome"
+			]
+		},
+		{
+			"name" : "paciente",
+			"attributes" : [
+				"cpf",
+				"nome"
+			]
+		}
+	]
+}
