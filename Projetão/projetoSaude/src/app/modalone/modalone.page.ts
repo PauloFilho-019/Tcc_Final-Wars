@@ -29,7 +29,7 @@ export class ModalonePage implements OnInit {
       this.info= "Banana com Arroz";
       this.info2= "Batata frita no jeito";
     }else if  (this.data.imc < 25){
-    
+      
     }else if  (this.data.imc < 30){
     alert("ccc")
     }else if  (this.data.imc < 35){
