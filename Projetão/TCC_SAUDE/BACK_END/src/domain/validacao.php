@@ -1,66 +1,50 @@
 <?php
 
-	class Paciente {
-		var $cpf;
-		var $nome;
-		var $cidade;
-		var $tipo_sanguineo;
-		var $data_de_nascimento;
-		var $telefone;
-		var $e_mail;
+	class Validacao {
+		var $id;
+		var $id_medico;
+		var $num_crm;
+		var $carterinha;
+		var $status;
 
-		function getCpf(){
-			return $this->cpf;
+		function getId(){
+			return $this->id;
 		}
-		function setCpf($cpf){
-			$this->cpf = $cpf;
+		function setId($id){
+			$this->id = $id;
 		}
 
-		function getNome(){
-			return $this->nome;
+		function getId_medico(){
+			return $this->id_medico;
 		}
-		function setNome($nome){
-			$this->nome = $nome;
-		}
-
-		function getCidade(){
-			return $this->cidade;
-		}
-		function setCidade($cidade){
-			$this->cidade = $cidade;
+		function setId_medico($id_medico){
+			$this->id_medico = $id_medico;
 		}
 
-		function getTipo_sanguineo(){
-			return $this->tipo_sanguineo;
+		function getNum_crm(){
+			return $this->num_crm;
 		}
-		function setTipo_sanguineo($tipo_sanguineo){
-			$this->tipo_sanguineo = $tipo_sanguineo;
-		}
-
-		function getData_de_nascimento(){
-			return $this->data_de_nascimento;
-		}
-		function setData_de_nascimento($data_de_nascimento){
-			$this->data_de_nascimento = $data_de_nascimento;
+		function setNum_crm($num_crm){
+			$this->num_crm = $num_crm;
 		}
 
-		function getTelefone(){
-			return $this->telefone;
+		function getCarterinha(){
+			return $this->carterinha;
 		}
-		function setTelefone($telefone){
-			$this->telefone = $telefone;
+		function setCarterinha($carterinha){
+			$this->carterinha = $carterinha;
 		}
 
-		function getE_mail(){
-			return $this->e_mail;
+		function getStatus(){
+			return $this->status;
 		}
-		function setE_mail($e_mail){
-			$this->e_mail = $e_mail;
+		function setStatus($status){
+			$this->status = $status;
 		}
 	}
 
-	class PacienteDAO {
-		function create($paciente) {
+	class ValidacaoDAO {
+		function create($validacao) {
 			$result = array();
 
 			try {

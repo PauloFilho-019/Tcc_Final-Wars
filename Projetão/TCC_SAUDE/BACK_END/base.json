@@ -18,14 +18,67 @@
 			"name" : "medico",
 			"attributes" : [
 				"crm",
-				"nome"
+				"nome",
+				"cidade",
+				"posto_atendimento",
+				"especialidade",
+				"telefone",
+				"e_mail"
 			]
 		},
 		{
 			"name" : "paciente",
 			"attributes" : [
 				"cpf",
-				"nome"
+				"nome",
+				"cidade",
+				"tipo_sanguineo",
+				"data_de_nascimento",
+				"telefone",
+				"e_mail"
+			]
+		},
+		{
+			"name" : "status_Consulta",
+			"attributes" : [
+				"id",
+				"status"
+			]
+		},
+		{
+			"name" : "agenda",
+			"attributes" : [
+				"id",
+				"id_medico",
+				"id_paciente",
+				"data_hora",
+				"id_status"
+			]
+		},
+		{
+			"name" : "validacao",
+			"attributes" : [
+				"id",
+				"id_medico",
+				"num_crm",
+				"carterinha",
+				"status"
+			]
+		},
+		{
+			"name" : "usuarioM",
+			"attributes" : [
+				"crm",
+				"login",
+				"senha"
+			]
+		},
+		{
+			"name" : "usuarioP",
+			"attributes" : [
+				"cpf",
+				"login",
+				"senha"
 			]
 		}
 	]

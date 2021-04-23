@@ -1,13 +1,9 @@
 <?php
 
-	class Paciente {
+	class UsuarioP {
 		var $cpf;
-		var $nome;
-		var $cidade;
-		var $tipo_sanguineo;
-		var $data_de_nascimento;
-		var $telefone;
-		var $e_mail;
+		var $login;
+		var $senha;
 
 		function getCpf(){
 			return $this->cpf;
@@ -16,51 +12,23 @@
 			$this->cpf = $cpf;
 		}
 
-		function getNome(){
-			return $this->nome;
+		function getLogin(){
+			return $this->login;
 		}
-		function setNome($nome){
-			$this->nome = $nome;
-		}
-
-		function getCidade(){
-			return $this->cidade;
-		}
-		function setCidade($cidade){
-			$this->cidade = $cidade;
+		function setLogin($login){
+			$this->login = $login;
 		}
 
-		function getTipo_sanguineo(){
-			return $this->tipo_sanguineo;
+		function getSenha(){
+			return $this->senha;
 		}
-		function setTipo_sanguineo($tipo_sanguineo){
-			$this->tipo_sanguineo = $tipo_sanguineo;
-		}
-
-		function getData_de_nascimento(){
-			return $this->data_de_nascimento;
-		}
-		function setData_de_nascimento($data_de_nascimento){
-			$this->data_de_nascimento = $data_de_nascimento;
-		}
-
-		function getTelefone(){
-			return $this->telefone;
-		}
-		function setTelefone($telefone){
-			$this->telefone = $telefone;
-		}
-
-		function getE_mail(){
-			return $this->e_mail;
-		}
-		function setE_mail($e_mail){
-			$this->e_mail = $e_mail;
+		function setSenha($senha){
+			$this->senha = $senha;
 		}
 	}
 
-	class PacienteDAO {
-		function create($paciente) {
+	class UsuarioPDAO {
+		function create($usuarioP) {
 			$result = array();
 
 			try {
