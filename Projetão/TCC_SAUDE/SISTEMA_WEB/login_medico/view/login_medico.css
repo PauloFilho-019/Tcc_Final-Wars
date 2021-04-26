@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
-
 body {
   padding: 40px;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans", "Fira Sans", sans-serif;
   background: url("../assets/fundopaciente.png.jpg") no-repeat center center fixed;
   display: flex;
   flex-direction: row;
