@@ -8,10 +8,24 @@ import { ModalController } from '@ionic/angular';
   styleUrls: ['./modalone.page.scss'],
 })
 export class ModalonePage implements OnInit {
-   data: any;
+  sliderOpts= {
+    zoom: {
+      maxRatio: 2
+    }
+  }
+
+  data: any;
   info: string;
   info2: string;
-  constructor(private modalCtrl: ModalController, private route: ActivatedRoute) { 
+  info3: string;
+  info4: string;
+  info5: string;
+  info6: string;
+  info7: string;
+  info8: string;
+  info9: string;
+  
+   constructor(private modalCtrl: ModalController, private route: ActivatedRoute) { 
     
     //this.route.queryParams.subscribe(params =>{
     //  console.log(params);
@@ -26,9 +40,16 @@ export class ModalonePage implements OnInit {
     
 
     if (this.data.imc < 18.5){
-      this.info= "Banana com Arroz";
-      this.info2= "Batata frita no jeito";
-    }else if  (this.data.imc < 25){
+      this.info= "Ovo";
+      this.info2= "Cereais integrais";
+      this.info3= "Iogurte natural";
+      this.info4= "Gengibre";
+      this.info5= "Café";
+      this.info6= "Abacate";
+      this.info7= "Tapioca";
+      this.info8= "Salada de frutas";
+      this.info9= "Suco verde";
+     }else if  (this.data.imc < 25){
       
     }else if  (this.data.imc < 30){
     alert("ccc")
@@ -41,6 +62,7 @@ export class ModalonePage implements OnInit {
   }
 }
   ngOnInit() {
+    alert("O aplicativo não se responsabilizar por problemas envolvendo alergias a algum alimento dos cardapios gerados, consulte um medido para saber quais alimentos você pode comer, sua saude é importante.");
   }
   
 
