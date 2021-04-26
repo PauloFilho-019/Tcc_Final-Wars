@@ -7,24 +7,54 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-    <div class="col">
-        Email:
-        <input type="text" [(ngModel)]="email" class="form-control" step="0.010"/> 
-    </div>
-    <div class="col">
-        Assunto:
-        <input type="text" [(ngModel)]="att" class="form-control" step="0.010"/> 
-    </div> 
-    <div class="col">
-      Mensagem:
-      <textarea type="text" placeholder="digite sua mensagem aqui" [(ngModel)]="msg" class="form-control"></textarea> 
-  </div> 
-  <div class="text-center" >
-  <br><br>
-  <div class="row">
+  <section class="section">
+		<div class="container">
+			<div class="columns is-centered">
+				<div class="column is-half">
  
-    <ion-button  color="success">Enviar</ion-button>
-    <ion-button  color="danger">Limpar Campos</ion-button>
-  </div>
-  </div>
+					<form action="enviar.php" method="POST">
+						<div class="field">
+							<label class="label">Nome</label>
+							<div class="control">
+								<input name="nome" class="input" type="text" placeholder="Seu nome">
+							</div>
+						</div>
+ 
+						<div class="field">
+							<label class="label">Email *</label>
+							<div class="control">
+								<input name="email" class="input" type="email" placeholder="Seu email">
+							</div>
+						</div>
+ 
+						<div class="field">
+							<label class="label">Assunto</label>
+							<div class="control">
+								<div class="select is-fullwidth">
+									<select name="assunto">
+										<option>Reportar erro</option>
+										<option>Anúncios</option>
+										<option>Outro</option>
+									</select>
+								</div>
+							</div>
+						</div>
+ 
+						<div class="field">
+							<label class="label">Mensagem *</label>
+							<div class="control">
+								<textarea name="mensagem" class="textarea" placeholder="Deixe sua mensagem" maxlength="2000"></textarea>
+							</div>
+						</div>
+						<div class="center">
+							<div class="control">
+								<button class="button is-link is-medium">Enviar</button>
+							</div>
+						</div>
+					</form>
+ 
+				</div>
+			</div>
+		</div>
+	</section>
 </ion-content>
