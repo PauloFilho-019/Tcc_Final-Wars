@@ -240,3 +240,56 @@ var Agenda = (function() {
     }
   
   }());
+
+
+  var _data = new kendo.data.SchedulerDataSource({
+    data: [    {
+      eventID: 8,
+      title: "Group meeting.",
+      start: new Date(),
+      end: new Date(),
+      pending:false,
+      recurrenceRule: "",
+      recurrenceException: "",
+      description: "Take my brother to his group meeting.",
+      isAllDay:false,
+      ownTimeSlot:true,
+      careAssistantId: 5,
+      clientId: 6
+    },{
+      eventID: 9,
+      title: "Make dinner.",
+      start: new Date("2013/06/13 11:00"),
+      end: new Date("2013/06/13 13:30"),
+      pending:true,
+      recurrenceRule: "",
+      recurrenceException: "",
+      description: "Make dinner for my mom.",
+      isAllDay:false,
+      ownTimeSlot:true,
+      careAssistantId: 5,
+      clientId: 6
+    } ],
+    schema: {
+      model : {
+        id : "eventID"
+      }
+    }
+  });
+  
+  function save(){
+    console.log(_data);    
+  }
+  
+  $('#scheduler').kendoScheduler({
+    date: new Date(),
+    startTime: new Date("2013/6/13 07:00 AM"),
+    height: 600,
+    views: [
+      { type: "agenda", title: "Agenda" },
+      { type: "month", selected: true },
+    ],
+  
+    save: save,
+    dataSource:_data
+  });
