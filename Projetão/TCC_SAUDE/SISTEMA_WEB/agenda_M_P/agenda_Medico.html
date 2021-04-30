@@ -7,20 +7,18 @@
     <title>Agenda Médica</title>
     <link rel="stylesheet" href="./view/agenda_medico.css">
     <link rel="stylesheet" href="//kendo.cdn.telerik.com/2015.3.1111/styles/kendo.common-material.min.css" />
-<link rel="stylesheet" href="//kendo.cdn.telerik.com/2015.3.1111/styles/kendo.material.min.css" />
-
-<script src="//kendo.cdn.telerik.com/2015.3.1111/js/jquery.min.js"></script>
-<script src="//kendo.cdn.telerik.com/2015.3.1111/js/kendo.all.min.js"></script>
-<script src="//kendo.cdn.telerik.com/2015.3.1111/js/kendo.timezones.min.js"></script>
-
-
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2015.3.1111/styles/kendo.material.min.css" />
+    <script src="//kendo.cdn.telerik.com/2015.3.1111/js/jquery.min.js"></script>
+    <script src="//kendo.cdn.telerik.com/2015.3.1111/js/kendo.all.min.js"></script>
+    <script src="//kendo.cdn.telerik.com/2015.3.1111/js/kendo.timezones.min.js"></script>
 </head>
 <body>
+<!------------------------------------navbar------------------------------------------------------------>
   <div class="nav">
     <input type="checkbox" id="nav-check">
     <div class="nav-header">
       <div class="nav-title">
-        JoGeek
+        <img src="./assets/logo_medique.png" class="header-logo" alt="medique">
       </div>
     </div>
     <div class="nav-btn">
@@ -32,38 +30,49 @@
     </div>
     
     <div class="nav-links">
-      <a href="//github.io/jo_geek" target="_blank">Github</a>
-      <a href="http://stackoverflow.com/users/4084003/" target="_blank">Stackoverflow</a>
-      <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">LinkedIn</a>
-      <a href="https://codepen.io/jo_Geek/" target="_blank">Codepen</a>
-      <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">JsFiddle</a>
+      <a href="../tela_inicio/index.html">Ínicio</a>
+      <a href="../area_medico/areamedico.html">Área Médica</a>
+      <a href="../area_paciente/area_paciente.html">Área Paciente</a>
+      <a href="../imc/imc.html">IMC</a>
+      <a href="../covid/covid.html">Covid 19</a>
+      <a href="../suporte/suporte.html">Suporte</a>
     </div>
   </div>
-        <div id="container">
-          <div id="header"> 
-            <h1>Marque Seus Pacientes </h1>
-            <p>Organize sua Agenda com Facilidade</p>
-            <p id="msg"></p>
-          </div>
-          <div id="newContact">
-            <p>Novo Paciente </p>
-            <input type="text" id="nome" maxlength="20" placeholder="Nome"  required/>
-            <input type="text" id="fone"  maxlength="13" placeholder="Fone" />
-            <input type="number" id="id"  placeholder="ID CONSULTA" />
-            <input type="button" id="cadastrar" class="cadastrar" value="Cadastrar"/>
-          </div>
-          <div id="list">
-            <p>Lista de Pacientes</p>
-            <ul id='todosDados'>
-              <div id="titulo">
-                <li class="titulo">Nome</li>
-                <li class="titulo">Telefone</li>
-                <li class="acoes">Açoes</li>
-               </div>
-            </ul>
-          </div>
-        </div>      
-        <div id="scheduler"></div>
+<!----------------------------------final navbar------------------------------------------------------------>
+
+<!-------------------------------Agenda manual telefone e nome---------------------------------------------->
+
+    <div id="container">
+      <div id="header"> 
+        <h1>Marque Seus Pacientes </h1>
+          <p>Organize sua Agenda com Facilidade</p>
+          <p id="msg"></p>
+      </div>
+
+      <div id="newContact">
+        <p>Novo Paciente </p>
+          <input type="text" id="nome" maxlength="20" placeholder="Nome"  required/>
+          <input type="text" id="fone"  maxlength="13" placeholder="Fone" />
+          <input type="number" id="id"  placeholder="ID CONSULTA" />
+          <input type="button" id="cadastrar" class="cadastrar" value="Cadastrar"/>
+      </div>
+
+      <div id="list">
+        <p>Lista de Pacientes</p>
+          <ul id='todosDados'>
+            <div id="titulo">
+              <li class="titulo">Nome</li>
+              <li class="titulo">Telefone</li>
+              <li class="acoes">Açoes</li>
+            </div>
+          </ul>
+      </div>
+    </div>  
+<!-------------------------------Final Agenda manual telefone e nome----------------------------------------->
+
+<!------------------------------------Agenda completa-------------------------------------------------------->
+    <div id="scheduler"></div>
+<!------------------------------------Final Agenda completa-------------------------------------------------->
 </body>
-<script src="./view/agenda_medico.js"></script>
+    <script src="./view/agenda_medico.js"></script>
 </html>
