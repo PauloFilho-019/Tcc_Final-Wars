@@ -96,33 +96,6 @@ body {
   transition: background .5s;
 }
 
-.medico {
-  background: rgb(0, 0, 0);
-  height: 80px;
-  width: 100%;
-}
-
-.medico ul {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-}
-
-.medico ul li {
-  color: #fff;
-  display: inline-block;
-  height: 80px;
-  line-height: 80px;
-  list-style: none;
-  padding: 0 10px;
-}
-
-.medico ul li:hover {
-  background: #d8d8d8;
-  cursor: pointer;
-  transition: background .5s;
-}
 /* Main */
 
 .main .container {
