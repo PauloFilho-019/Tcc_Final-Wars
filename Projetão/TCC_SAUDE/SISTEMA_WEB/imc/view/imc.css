@@ -89,3 +89,20 @@ input[type="button"] {
   color: #446df5;
   font-size: 30px;
 }
+
+.botao{
+  font-family: 'Indie Flower', cursive;
+  width: 263px;
+  padding: 0 0 0 15px;
+  margin: 0 auto;
+  display: table;
+  font-weight: bold;
+  height: 50px;
+  border-radius: 3px;
+  margin-top: 5px;
+  font-size: 23px;
+  border: none;
+  background-color: #4b73e0;
+  cursor: pointer;
+  color: #ffffff;
+}
