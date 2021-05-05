@@ -371,7 +371,7 @@
   .icons-socials {
     padding-bottom: 32px;
     padding-top: 35px;
-    background-color: #7496f3;
+    background-color: #000000;
   }
   
   .socials {
@@ -402,15 +402,15 @@
   }
   
   .social-link-twitter {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+    background-image: url(../assets/twitter.png);
   }
   
   .social-link-facebook {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg);
+    background-image: url(../assets/facebook.png);
   }
   
   .social-link-instagram {
-    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg);
+    background-image: url(../assets/instagram.png);
   }
   
   .copyright {

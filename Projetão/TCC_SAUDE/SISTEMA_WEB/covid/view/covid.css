@@ -1,9 +1,3 @@
-/*	
-	Side Navigation Menu V2, RWD
-	===================
-	Author: https://github.com/pablorgarcia
- */
-
  @charset "UTF-8";
  @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
  
@@ -12,7 +6,7 @@
    font-weight: 300;
    line-height: 1.42em;
    color:#A7A1AE;
-   background-color:#1F2739;
+   background-image: url(../assets/fundoteste1.jpg);
  }
  
  h1 {
@@ -20,7 +14,7 @@
    font-weight: 300;
    line-height:1em;
    text-align: center;
-   color: #4DC3FA;
+   color: #ffffff;
  }
  
  h2 {
@@ -30,41 +24,30 @@
    display: block;
    line-height:1em;
    padding-bottom: 2em;
-   color: #FB667A;
+   color: #ffffff;
  }
- 
- h2 a {
-   font-weight: 700;
-   text-transform: uppercase;
-   color: #FB667A;
-   text-decoration: none;
- }
- 
- .blue { color: #185875; }
- .yellow { color: #FFF842; }
- 
  .container th h1 {
      font-weight: bold;
      font-size: 1em;
    text-align: left;
-   color: #185875;
+   color: #ffffff;
  }
  
  .container td {
-     font-weight: normal;
-     font-size: 1em;
-   -webkit-box-shadow: 0 2px 2px -2px #0E1119;
-      -moz-box-shadow: 0 2px 2px -2px #0E1119;
-           box-shadow: 0 2px 2px -2px #0E1119;
+  font-weight: normal;
+  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+  -moz-box-shadow: 0 2px 2px -2px #0E1119;
+  box-shadow: 0 2px 2px -2px #0E1119;
  }
  
  .container {
-     text-align: left;
-     overflow: hidden;
-     width: 80%;
-     margin: 0 auto;
-   display: table;
-   padding: 0 0 8em 0;
+  text-align: left;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
  }
  
  .container td, .container th {
@@ -73,12 +56,12 @@
    padding-left:2%;  
  }
  
- /* Background-color of the odd rows */
+
  .container tr:nth-child(odd) {
      background-color: #323C50;
  }
  
- /* Background-color of the even rows */
+
  .container tr:nth-child(even) {
      background-color: #2C3446;
  }
@@ -87,7 +70,7 @@
      background-color: #1F2739;
  }
  
- .container td:first-child { color: #FB667A; }
+ .container td:first-child { color: #00fff2; }
  
  .container tr:hover {
     background-color: #464A52;
@@ -97,11 +80,11 @@
  }
  
  .container td:hover {
-   background-color: #FFF842;
+   background-color: #42ffff;
    color: #403E10;
    font-weight: bold;
    
-   box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+   box-shadow: #74d4cc -1px 1px, #72ddd4 -2px 2px, #4eada5 -3px 3px, #4ecfe6 -4px 4px, #5cbfd1 -5px 5px, #59f0f5 -6px 6px;
    transform: translate3d(6px, -6px, 0);
    
    transition-delay: 0s;
