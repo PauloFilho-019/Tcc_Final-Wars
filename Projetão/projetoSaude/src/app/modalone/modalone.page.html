@@ -24,38 +24,40 @@
     <li>{{info8}}</li>
     <li>{{info9}}</li>
   </ul>
-  <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
-   It has roots in a piece of classical Latin literature from 45 BC,
-  making it over 2000 years old. Richard McClintock, a Latin professor
-  at Hampden-Sydney College in Virginia, looked up one of</p>
+  <p>{{infoExtra}}</p>
   </div>
 
       <ion-slides [options]="sliderOpts" zoom>
        <ion-slide>   
          <div class="swiper-zoom-container">
           <h3>Arraste a imagem para o lado e clique nela para dar zoom</h3>
-          <img src="assets/imagens/img.jpg">  
+          <ion-img [src]="img"></ion-img>
          </div>
         </ion-slide>
         <ion-slide>   
           <div class="swiper-zoom-container">
-           <img src="assets/imagens/img2.jpg">  
+            <ion-img [src]="img1"></ion-img>
           </div>
          </ion-slide>
          <ion-slide>   
           <div class="swiper-zoom-container">
-           <img src="assets/imagens/img3.jpg">  
+            <ion-img [src]="img2"></ion-img>
           </div>
          </ion-slide>
          <ion-slide>   
           <div class="swiper-zoom-container">
-           <img src="assets/imagens/img4.jpg">  
+            <ion-img [src]="img3"></ion-img>
+          </div>
+         </ion-slide>  
+         <ion-slide>   
+          <div class="swiper-zoom-container">
+            <ion-img [src]="img4"></ion-img>
           </div>
          </ion-slide>   
          <ion-slide>   
           <div class="swiper-zoom-container">
-           <img src="assets/imagens/img5.jpg">  
-           <h3>Arraste a imagem para o lado e clique nela para dar zoom</h3>
+            <ion-img [src]="img5"></ion-img>
+            <h3>Arraste a imagem para o lado e clique nela para dar zoom</h3>
           </div>
          </ion-slide> 
       </ion-slides>
