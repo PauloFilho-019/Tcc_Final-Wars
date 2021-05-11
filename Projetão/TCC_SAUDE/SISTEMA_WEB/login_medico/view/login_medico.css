@@ -74,5 +74,18 @@ p {
   font-size: 1em;
   margin: 0 75px;
 }
+  
+.botao{
+  background: #76B3FA;
+    border-radius: 80px;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0 75px;
+    margin-top: 20px;
+}
+  
+  
 
 
