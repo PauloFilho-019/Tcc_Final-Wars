@@ -26,8 +26,8 @@
 		
             
             try{
-				$query = "INSERT INTO usuarioM VALUES ($crm, md5('$senha')";
-				
+				$query = "INSERT INTO usuarioM VALUES ($crm, md5('$senha'))";
+				//var_dump($query);
                 $con = new Connection();
                 if(Connection::getInstance()->exec($query) >= 1){
                     $result = $usuarioM;
