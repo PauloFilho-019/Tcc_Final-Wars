@@ -2,6 +2,9 @@
 
 body{
 	font-family: "Open Sans", "Fira Sans", sans-serif;
+	background-image: url(../assets/fundopaciente.png.jpg);
+	background-size: 100% 750px;
+	background-repeat: no-repeat;
 }
 * {
 	margin: 0;
@@ -10,7 +13,6 @@ body{
 i {
 	margin-right: 10px;
 }
-/*----------multi-level-accordian-menu------------*/
 .navbar-logo{
 	padding: 15px;
 	color: #fff;

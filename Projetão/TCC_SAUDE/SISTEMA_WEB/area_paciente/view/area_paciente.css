@@ -2,6 +2,9 @@
 
 body{
 	font-family: "Open Sans", "Fira Sans", sans-serif;
+	background-image: url(../assets/fundomedico.png);
+	background-size: 100% 650px;
+	background-repeat: no-repeat;
 }
 * {
 	margin: 0;

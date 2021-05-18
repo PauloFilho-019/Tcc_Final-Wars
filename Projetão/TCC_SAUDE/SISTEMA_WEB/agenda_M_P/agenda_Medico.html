@@ -8,8 +8,29 @@
     <link rel="stylesheet" href="./view/agenda_medico.css">
 </head>
 <body>
-
-  
-</body>
+        <div id="container">
+          <div id="header"> 
+            <h1>CRUD com Array - Agenda </h1>
+            <p>Demonstraçao de uma simples Agenda de Contatos</p>
+            <p id="msg"></p>
+          </div>
+          <div id="newContact">
+            <p>Novo Contato </p>
+            <input type="text" id="nome" maxlength="20" placeholder="Nome"  required/>
+            <input type="text" id="fone"  maxlength="13" placeholder="Fone" />
+            <input type="button" id="cadastrar" class="cadastrar" value="Cadastrar"/>
+          </div>
+          <div id="list">
+            <p>Lista de Contatos</p>
+            <ul id='todosDados'>
+              <div id="titulo">
+                <li class="titulo">Nome</li>
+                <li class="titulo">Telefone</li>
+                <li class="acoes">Açoes</li>
+               </div>
+            </ul>
+          </div>
+        </div>
+      </body>
     <script src="./view/agenda_medico.js"></script>
 </html>
