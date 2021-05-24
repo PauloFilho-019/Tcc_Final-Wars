@@ -1,4 +1,60 @@
-#aaa{
-    border-radius: 2px;
-    border-color: white;
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+$paper-color: #f1ede9;
+$paper-line: #94acd4;
+.rad-img {
+  border-radius: 50%;
+  border: 8px solid black;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.a {
+  font-size: 20px;
+  font-family: "Shadows Into Light", cursive;
+  border: solid 0px 5px 0px 5px black;
+  background-color: rgb(133, 133, 233);
+}
+
+.extra1 {
+  font-size: 25px;
+
+  font-family: "Shadows Into Light", cursive;
+  background-color: rgb(133, 133, 233);
+  border-radius: 5px;
+}
+.extra {
+  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
+  background-color: rgb(133, 133, 233);
+  border-radius: 5px;
+}
+.ilson1 {
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
+}
+.ilson {
+  text-decoration: underline;
+  font-size: 20px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.paper {
+  border: 10px inset rgb(163, 160, 160);
+  color: black;
+  font-family: "Shadows Into Light", cursive;
+  width: 50%;
+  height: 70%;
+  min-height: 30vh;
+  padding: 35px 20px;
+  background: repeating-linear-gradient(
+    $paper-color,
+    $paper-color 31px,
+    $paper-line 31px,
+    $paper-line 32px
+  );
+  font-family: "Shadows Into Light", cursive;
+  line-height: 32px;
+  outline: 0;
+  font-size: 22px;
 }

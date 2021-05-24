@@ -8,6 +8,10 @@ const routes: Routes = [
   },  {
     path: 'modalone',
     loadChildren: () => import('./modalone/modalone.module').then( m => m.ModalonePageModule)
+  },
+  {
+    path: 'modaltwo',
+    loadChildren: () => import('./modaltwo/modaltwo.module').then( m => m.ModaltwoPageModule)
   }
 
 ];

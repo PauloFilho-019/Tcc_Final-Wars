@@ -7,5 +7,89 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-   
+  <section class="section">
+		<div class="container">
+			<div class="columns is-centered">
+				<div class="column is-half">
+ 
+					<form method="POST">
+						<div class="field">
+							<div class="carv">
+							<label class="label">Nome</label>
+							</div>
+							<div class="control">
+								<input name="name" [(ngModel)]="name" class="input" type="text">
+							</div>                       
+						</div>
+ 
+						<div class="field">
+							<div class="carv">
+
+							<label class="label">Email</label>
+							</div>
+							<div class="control">
+								<input name="email" [(ngModel)]="email" class="input" type="email" >
+							</div>
+						</div>
+ 
+						<div class="field">
+							<div class="carv">
+
+							<label class="label">CPF</label>
+							</div>
+							<div class="control">
+								<input name="cpf" [(ngModel)]="cpf" class="input" type="cpf" >
+							</div>
+						</div>
+
+            <div class="field">
+							<div class="carv">
+
+							<label class="label">Cidade</label>
+							</div>
+							<div class="control">
+								<input name="cidade" [(ngModel)]="cidade" class="input" type="cidade" >
+							</div>
+						</div>
+					 
+            <div class="field">
+							<div class="carv">
+
+							<label class="label">Tipo Sanguineo</label>
+							</div>
+							<div class="control">
+								<input name="sang" [(ngModel)]="sang" class="input" type="sang" >
+							</div>
+						</div>
+
+            <div class="field">
+							<div class="carv">
+
+							<label class="label">Data de Nascimento</label>
+							</div>
+							<div class="control">
+								<input name="data" type="date"[(ngModel)]="data" class="input" type="data" >
+							</div>
+						</div>
+            <div class="field">
+							<div class="carv">
+
+							<label class="label">Telefone</label>
+							</div>
+							<div class="control">
+								<input name="telefone" [(ngModel)]="telefone" class="input" type="telefone" >
+							</div>
+						</div>
+
+						<div class="text-center">
+							<div class="aa">
+								<button (click)="onclick()"  class="button is-link is-medium">Enviar</button>
+							</div>
+						</div>
+					</form>
+ 
+				</div>
+			</div>
+		</div>
+	</section>
 </ion-content>

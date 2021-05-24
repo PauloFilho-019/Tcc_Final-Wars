@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
+    <ion-title class="b">
      Calculo de Imc
     </ion-title>
   </ion-toolbar>
@@ -15,11 +15,15 @@
 
   <div class="row">
     <div class="col">
+      <p class="a">
         Peso:
+      </p>
         <input type="number" [(ngModel)]="peso" class="form-control" step="0.010"/> 
     </div>
     <div class="col">
+      <p class="a">  
         Altura:
+      </p>
         <input type="number" [(ngModel)]="altura" class="form-control" step="0.010"/> 
     </div>
  </div> 
@@ -27,9 +31,11 @@
   
   <div class="text-center">
     <br>
-    <button type="button" name="button" (click)="calcularImc()"  class="btn btn outline-primary">Calcular</button>
+    <button type="button" class="c" name="button" (click)="calcularImc()"  class="btn btn outline-primary">Calcular</button>
   </div>
-  <h3 class="text-center">Resultado: <b> {{imc.toFixed(2)}} </b></h3>
+  <div class="c">
+    <h3 class="text-center">Resultado: <b> {{imc.toFixed(2)}} </b></h3>
+  </div>
 
   <div class="container" align="center">
     <img src="../../assets/foto.jpeg">
@@ -37,7 +43,7 @@
 
   <div class="text-center">
     <br>
-    <ion-button color="primary" disabled={{disableButton}} (click)="onclick()" >Clique aqui para ver seu cardapio ideal</ion-button>
+    <ion-button class="d" color="primary" disabled={{disableButton}} (click)="onclick()" >Clique aqui para ver seu cardapio ideal</ion-button>
   </div>
   
 </ion-content>

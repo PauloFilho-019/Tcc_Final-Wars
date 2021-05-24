@@ -4,61 +4,64 @@
     <ion-button (click)="close()">      
       <ion-icon slot="icon-only" name="chevron-back-outline"></ion-icon>
     </ion-button>
-    <ion-title>Voltar</ion-title>
+    <ion-title class="ilson1">Voltar</ion-title>
   </ion-buttons>
   </ion-toolbar>
+ 
 </ion-header>
 
 <ion-content>
   <br>
-  <p>Pelo seu IMC de <B>{{data.imc.toFixed(2)}}</B> seu os alimentos recomendados pra você são:</p>
+  <p class="extra">Pelo seu IMC de <B>{{data.imc.toFixed(2)}}</B> seu os alimentos recomendados pra você são:</p>
   <div class="aaa">
   <ul>
-    <li>{{info}}</li>
-    <li>{{info2}}</li>
-    <li>{{info3}}</li>
-    <li>{{info4}}</li>
-    <li>{{info5}}</li>
-    <li>{{info6}}</li>
-    <li>{{info7}}</li>
-    <li>{{info8}}</li>
-    <li>{{info9}}</li>
+    <li class="ilson">{{info}}</li>
+    <li class="ilson">{{info2}}</li>
+    <li class="ilson">{{info3}}</li>
+    <li class="ilson">{{info4}}</li>
+    <li class="ilson">{{info5}}</li>
+    <li class="ilson">{{info6}}</li>
+    <li class="ilson">{{info7}}</li>
+    <li class="ilson">{{info8}}</li>
+    <li class="ilson">{{info9}}</li>
   </ul>
-  <p>{{infoExtra}}</p>
+  <p class="extra1">{{infoExtra}}</p>
   </div>
 
+  <div class="a">
       <ion-slides [options]="sliderOpts" zoom>
        <ion-slide>   
          <div class="swiper-zoom-container">
-          <h3>Arraste a imagem para o lado e clique nela para dar zoom</h3>
-          <ion-img [src]="img"></ion-img>
+          <h1 class="paper">Arraste a imagem para o lado e clique nela para dar zoom</h1>
+          <ion-img class="rad-img" [src]="img"></ion-img>
          </div>
         </ion-slide>
         <ion-slide>   
           <div class="swiper-zoom-container">
-            <ion-img [src]="img1"></ion-img>
+            <ion-img class="rad-img" [src]="img1"></ion-img>
           </div>
          </ion-slide>
          <ion-slide>   
           <div class="swiper-zoom-container">
-            <ion-img [src]="img2"></ion-img>
+            <ion-img class="rad-img" [src]="img2"></ion-img>
           </div>
          </ion-slide>
          <ion-slide>   
           <div class="swiper-zoom-container">
-            <ion-img [src]="img3"></ion-img>
+            <ion-img class="rad-img" [src]="img3"></ion-img>
           </div>
          </ion-slide>  
          <ion-slide>   
           <div class="swiper-zoom-container">
-            <ion-img [src]="img4"></ion-img>
+            <ion-img class="rad-img" [src]="img4"></ion-img>
           </div>
          </ion-slide>   
          <ion-slide>   
           <div class="swiper-zoom-container">
-            <ion-img [src]="img5"></ion-img>
-            <h3>Arraste a imagem para o lado e clique nela para dar zoom</h3>
+            <ion-img class="rad-img" [src]="img5"></ion-img>
+            <h1 class="paper">Arraste a imagem para o lado e clique nela para dar zoom</h1>
           </div>
          </ion-slide> 
       </ion-slides>
+  </div>
 </ion-content>

@@ -56,7 +56,7 @@ export class ModalonePage implements OnInit {
       this.info7= "Tapioca";
       this.info8= "Salada de frutas";
       this.info9= "Suco verde";
-      this.infoExtra= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo";
+      this.infoExtra= "IMC encontra-se abaixo do normal. Faça uma consulta médica e   uma consulta nutricional  para verificação do estado geral da sua saúde e  dos seus hábitos alimentares.";
       this.img= "assets/imagens/img.jpg";
       this.img1= "assets/imagens/img1.jpeg";
       this.img2= "assets/imagens/img2.jpg";
@@ -74,7 +74,7 @@ export class ModalonePage implements OnInit {
       this.info7= "Tapioca";
       this.info8= "Salada de frutas";
       this.info9= "Suco verde";
-      this.infoExtra= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo";
+      this.infoExtra= "IMC encontra-se dentro da normalidade. Mantenha-se ativo fisicamente, pratique exercícios e alimente-se de maneira saudável, para manter o seu peso ideal, sempre !";
       this.img= "assets/imagens/img6.jpg";
       this.img1= "assets/imagens/img7.jpg";
       this.img2= "assets/imagens/img8.jpg";
@@ -92,7 +92,7 @@ export class ModalonePage implements OnInit {
       this.info7= "Tapioca";
       this.info8= "kung fu panda";
       this.info9= "Suco verde";
-      this.infoExtra= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo";
+      this.infoExtra= "Ao medir índice de massa corporal e verificar que encontra-se acima do normal, é aconselhável fazer uma avaliação de composição corporal.A finalidade é verificar se o excesso de peso está relacionado à sua quantidade de massa magra (músculos, ossos e peso residual) ou adiposa (gordura). Recomendamos uma consulta médica e uma consulta nutricional  para verificação do seu estado geral de saúde e hábitos alimentares para iniciar um processo saudável para perder peso.";
       this.img= "assets/imagens/img12.jpg";
       this.img1= "assets/imagens/img13.jpg";
       this.img2= "assets/imagens/img14.jpg";
@@ -109,7 +109,7 @@ export class ModalonePage implements OnInit {
       this.info7= "Tapioca";
       this.info8= "Salada de frutas";
       this.info9= "Suco verde";
-      this.infoExtra= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo";
+      this.infoExtra= "IMC bem acima do normal. Faça uma avaliação de composição corporal para verificar se o excesso de peso está relacionado à quantidade de massa magra (músculos, ossos e peso residual) ou adiposa (gordura). No caso do excesso de adiposidade, recomendamos uma consulta endocrinológica e uma consulta nutricional, para verificação do seu estado geral de saúde e hábitos alimentares. Os exercícios aquáticos, como a hidroginástica e a natação, são os mais indicados para obesos que desejam começar a praticar seus exercícios.";
       this.img= "assets/imagens/img23.jpg";
       this.img1= "assets/imagens/img24.jpg";
       this.img2= "assets/imagens/img25.jpg";
@@ -126,7 +126,7 @@ export class ModalonePage implements OnInit {
       this.info7= "Tapioca";
       this.info8= "Salada de frutas";
       this.info9= "Suco verde";
-      this.infoExtra= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo";
+      this.infoExtra= "Ao tentar saber o índice de massa corporal calcular um resultado que dê nesta faixa, saiba que os riscos à saúde aumentam a partir do sobrepeso, para doenças como diabetes e hipertensão.Este aumento é contínuo, à medida que aumenta o valor do IMC. Além disso, alguns grupos étnicos apresentam diferentes taxas de distribuição de gordura, como por exemplo, populações asiáticas e polinésias que estariam mais predispostos a diabetes tipo 2 e doenças cardiovasculares do que outras.";
       this.img= "assets/imagens/img29.jpg";
       this.img1= "assets/imagens/img30.jpg";
       this.img2= "assets/imagens/img31.jpg";
@@ -143,7 +143,7 @@ export class ModalonePage implements OnInit {
       this.info7= "Tapioca";
       this.info8= "Salada de frutas";
       this.info9= "Suco verde";
-      this.infoExtra= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo";
+      this.infoExtra= "Nesta faixa que aponta um IMC de 40 a números mais altos, os riscos cardiovasculares são elevadíssimos,  assim como dificuldade de locomoção e imensa sobrecarga sobre as articulações.";
       this.img= "assets/imagens/img35.jpg";
   }
 }

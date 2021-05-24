@@ -1,3 +1,21 @@
+.carv {
+  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
+  border: solid 2px 5px 2px 5px black;
+  background-color: rgb(133, 133, 233);
+}
+
+.aa {
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
+}
+.ilson1 {
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
+}
+
 /*! bulma.io v0.9.2 | MIT License | github.com/jgthms/bulma */
 .button,
 .file-cta,
@@ -4179,6 +4197,7 @@ fieldset[disabled] .select select:hover {
   }
 }
 .control {
+  font-family: "Shadows Into Light", cursive;
   box-sizing: border-box;
   clear: both;
   font-size: 1rem;

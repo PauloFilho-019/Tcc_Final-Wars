@@ -1,9 +1,10 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
+    <ion-title class="ilson1">
       Suporte
     </ion-title>
   </ion-toolbar>
+  
 </ion-header>
 
 <ion-content [fullscreen]="true" >
@@ -16,21 +17,29 @@
  
 					<form method="POST">
 						<div class="field">
+							<div class="carv">
 							<label class="label">Nome</label>
+							</div>
 							<div class="control">
-								<input name="name" [(ngModel)]="name" class="input" type="text" placeholder="Seu nome">
+								<input name="name" [(ngModel)]="name" class="input" type="text">
 							</div>                       
 						</div>
  
 						<div class="field">
+							<div class="carv">
+
 							<label class="label">Email</label>
+							</div>
 							<div class="control">
-								<input name="email" [(ngModel)]="email" class="input" type="email" placeholder="Seu email">
+								<input name="email" [(ngModel)]="email" class="input" type="email" >
 							</div>
 						</div>
  
 						<div class="field">
+							<div class="carv">
+
 							<label class="label" placeholder="Selecione o assunto">Assunto</label>
+							</div>
 							<div class="control">
 								<div class="select is-fullwidth">
 									<select name="assunta" [(ngModel)]="assunta">
@@ -43,13 +52,16 @@
 						</div>
  
 						<div class="field">
+							<div class="carv">
+
 							<label class="label">Mensagem</label>
+							</div>
 							<div class="control">
-								<textarea name="message" [(ngModel)]="message" class="textarea" placeholder="Deixe sua mensagem" maxlength="2000"></textarea>
+								<textarea name="message" [(ngModel)]="message" class="textarea"   maxlength="2000"></textarea>
 							</div>
 						</div>
-						<div class="center">
-							<div class="control">
+						<div class="text-center">
+							<div class="aa">
 								<button (click)="evento()" class="button is-link is-medium">Enviar</button>
 							</div>
 						</div>

@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { ModaltwoComponent } from './modaltwo.component';
+import { ModaltwoPage } from './modaltwo.page';
 
-describe('ModaltwoComponent', () => {
-  let component: ModaltwoComponent;
-  let fixture: ComponentFixture<ModaltwoComponent>;
+describe('ModaltwoPage', () => {
+  let component: ModaltwoPage;
+  let fixture: ComponentFixture<ModaltwoPage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ModaltwoComponent ],
+      declarations: [ ModaltwoPage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ModaltwoComponent);
+    fixture = TestBed.createComponent(ModaltwoPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
