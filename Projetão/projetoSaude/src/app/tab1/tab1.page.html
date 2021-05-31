@@ -31,7 +31,9 @@
   
   <div class="text-center">
     <br>
-    <button type="button" class="c" name="button" (click)="calcularImc()"  class="btn btn outline-primary">Calcular</button>
+    <div class="c">
+     <button type="button"  name="button" (click)="calcularImc()"  class="btn btn outline-primary">Calcular</button>
+    </div>
   </div>
   <div class="c">
     <h3 class="text-center">Resultado: <b> {{imc.toFixed(2)}} </b></h3>
