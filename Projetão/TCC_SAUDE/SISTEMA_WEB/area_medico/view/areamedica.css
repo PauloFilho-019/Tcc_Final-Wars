@@ -3,7 +3,7 @@
 body{
 	font-family: "Open Sans", "Fira Sans", sans-serif;
 	background-image: url(../assets/fundopaciente.png.jpg);
-	background-size: 100% 750px;
+	background-size: 100% 930px;
 	background-repeat: no-repeat;
 }
 * {
@@ -80,14 +80,7 @@ i {
 	border-top-right-radius: 15px;
 	margin-top: 10px;
 }
-.hori-selector .right,
-.hori-selector .left{
-	position: absolute;
-	width: 25px;
-	height: 25px;
-	background-color: #fff;
-	bottom: 10px;
-}
+
 .hori-selector .right{
 	right: -25px;
 }

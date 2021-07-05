@@ -28,7 +28,7 @@
             
             try{
 				$query = "INSERT INTO usuarioP VALUES ('$cpf', md5('$senha'))";
-				var_dump($query);
+				
                 $con = new Connection();
                 if(Connection::getInstance()->exec($query) >= 1){
                     $result = $usuarioP;

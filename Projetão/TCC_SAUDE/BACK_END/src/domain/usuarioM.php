@@ -23,8 +23,7 @@
 			$result = array(); 
 			$crm = $usuarioM->getCrm();
 			$senha = $usuarioM->getSenha();
-		
-            
+		  
             try{
 				$query = "INSERT INTO usuarioM VALUES ($crm, md5('$senha'))";
 				//var_dump($query);
